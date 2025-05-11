@@ -1,29 +1,12 @@
-# book-library-system
+# React + Vite
 
-#components i have created
-1)Header.jsx
-2)About.jsx
-3)Contact.jsx
-4)Book.jsx
-5)BookList.jsx
-6)AddBookPage.jsx
-7)BookDetails.jsx
-8)BrowseBook.jsx
-9)Error.jsx
-10)style.css
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-#Utils section
+Currently, two official plugins are available:
 
-1)appStore.js
-2)BookSlice.js
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-###   Instruction to run  projects
+## Expanding the ESLint configuration
 
-* Install Node Modules
-* set react project
-* in terminal "npm run dev"
-* display the link
-* open in browser
-
-  ####### I have attached the pdf file which shows features in my app   #######
-
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
